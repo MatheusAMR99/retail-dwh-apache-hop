@@ -30,6 +30,46 @@ ETL/
 - Carga para Data Warehouse
 - Dashboards no Metabase
 
+## 📊 Modelo Dimensional
+
+Modelo dimensional desenvolvido utilizando a abordagem Star Schema para análise de vendas.
+
+![Modelo Dimensional](docs/modelo_DW.png)
+
+### Estrutura Analítica
+
+**Tabela Fato**
+
+- ft_orders
+
+**Dimensões**
+
+- dim_customers
+- dim_products
+- dim_employee
+- dim_calendario
+
+### Arquivos Complementares
+
+- [Modelo em PDF](docs/dw.pdf)
+- [Modelo em HTML](docs/dw.html)
+
+---
+
+## 📈 Dashboards Metabase
+
+### Quantidade Vendida por País
+
+Análise comparativa entre faturamento e quantidade de produtos vendidos por país.
+
+![Análise de Quantidade Vendida](docs/metabase/Quantidade_de_vendas_pais.png)
+
+### Evolução Temporal das Vendas
+
+Análise temporal da quantidade de vendas por período.
+
+![Quantidade_de_Vendas](docs/metabase/Analise_temporal_de_quantidade_vendida.png)
+
 ## 👨‍💻 Autor
 
 Matheus Augusto
