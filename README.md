@@ -17,7 +17,8 @@ Consolidar dados operacionais em um Data Warehouse para apoiar a tomada de decis
 ## 📂 Estrutura do Projeto
 
 ```text
-ETL/
+├── Banco MySQL/
+├── ETL/  
 ├── stg/
 ├── DW/
 └── workflow/
